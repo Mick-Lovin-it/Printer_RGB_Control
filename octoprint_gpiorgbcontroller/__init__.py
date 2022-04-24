@@ -14,7 +14,7 @@ class GpiorgbcontrollerPlugin(octoprint.plugin.StartupPlugin,
 	def __init__(self):
 		self.led = None
 		self.color = '#FFFFFF'
-		self.is_on = False
+		self.is_on = True
 		self.btn = None
 		self.is_btn_en = False
 		self.gcode_command_enable = False
